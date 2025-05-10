@@ -35,7 +35,7 @@ let x3 = a % 10                   // 5
 let x2 = ((a - x3) / 10) % 10     // 4
 let x1 = (a - (x2 * 10 + x3)) / 100 // 3
 let x3x2x1 =  x2 * 100 + x1 * 10 + x3
-console.log("x3x2x1", x3x2x1); */
+console.log("x3x2x1", x3x2x1); 
 
 //Integer4 3- usul
 let a = 555;
@@ -44,7 +44,6 @@ let x2 = ((a - x3) / 10) % 10     // 4
 let x1 = (a - (x2 * 10 + x3)) / 100 // 3
 let x3x2x1 =  x2 * 100 + x1 * 10 + x3
 console.log("x3x2x1", x3x2x1);  
-/*
 //Integer5 1-usul
 let s;
 let a = 6.3;
