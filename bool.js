@@ -64,7 +64,7 @@ let a = Number(prompt("a ning qiymatini kiriting"));
 let b = Number(prompt("b ning qiymatini kiriting"));
 let s;
 s = (a < 0) && (b < 0)
-console.log(s); */
+console.log(s); 
 
 // 10- misol
 
@@ -72,4 +72,4 @@ let a = Number(prompt("a ning qiymatini kiriting"));
 let b = Number(prompt("b ning qiymatini kiriting"));
 let s;
 s = (a % 2 == 0) && (b % 2 == 0)
-console.log(s);
+console.log(s); */
