@@ -10,7 +10,7 @@ for(let i = 0; i < n; i++){
 
 let a = 5;
 let b = 15;
-for( let i = 5; i <= b; i++){
+for( let i = a; i <= b; i++){
   console.log(i);
 } 
 
@@ -18,7 +18,7 @@ for( let i = 5; i <= b; i++){
 
 let a = 5;
 let b = 15;
-for( let i = 14; i > a; i--){
+for( let i = b - 1; i > a; i--){
   console.log(i);
 } 
 
@@ -94,24 +94,27 @@ console.log(s);
 
 // 11- misol
 
-let n = 5;
-let s = 0;
+let n = 10;
+let S = 0;
 
-for(let i = n; i <= 2 * n; i++){
-  s += i * i;
+for (let i = n; i <= 2 * n; i++) {
+  S += i * i;
 }
-console.log(s); 
+
+console.log("Natija:", S);
 
 // 12- misol
 
-let n = Number(prompt("n ="));
-let s = 1;
+let n = 2; 
+let S = 1;
 
-for (let i = 11; i <= n * 10; i++) {
-  let x = i / 10;
-  s *= x;
+for (let i = 1; i <= n + 1e-9; i += 0.1) {
+  S *= i;
 }
-console.log(s.toFixed(2)); 
+
+console.log("S =", S.toFixed(2));
+
+
 
 // 13- misol
 
@@ -228,7 +231,7 @@ for (let i = 1; i <= n; i++) {
   s += 1 / factorial;     
 }
 
-console.log("Yig'indi:", s); */
+console.log("Yig'indi:", s); 
 
 // 22- misol
 
@@ -245,3 +248,4 @@ for (let i = 1; i <= n; i++) {
 }
 
 console.log(`e^${x} ning ${n}-darajagacha yaqinlashuvi:`, sum);
+*/
