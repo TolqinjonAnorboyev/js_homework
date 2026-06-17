@@ -3,7 +3,7 @@
 let k = 10;
 let n = 6;
 for(let i = 0; i < n; i++){
-  console.log(k);
+  console.log(i);
 } 
 
 // 2- misol
@@ -94,7 +94,7 @@ console.log(s);
 
 // 11- misol
 
-let n = 10;
+let n = 2;
 let S = 0;
 
 for (let i = n; i <= 2 * n; i++) {
@@ -105,7 +105,7 @@ console.log("Natija:", S);
 
 // 12- misol
 
-let n = 2; 
+let n = 5; 
 let S = 1;
 
 for (let i = 1; i <= n + 1e-9; i += 0.1) {
